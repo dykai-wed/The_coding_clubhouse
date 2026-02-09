@@ -48,7 +48,7 @@ Use this table to quickly search and understand available utilities.
 | `.contact-form__textareaField` | Form Field | Textarea wrapper (label-inside + focus ring)        | input.css |
 | `.contact-form__textarea`      | Form Field | The actual `<textarea>` element (borderless, grows) | input.css |
 | `.contact-form__counter`       | Form Field | Bottom-right character counter text                 | input.css |
-
+| `.girls-card` | Card | Hero Stack | input.css|
 
 
 > ⚠️ Every new utility **must** be added to this table.
@@ -404,7 +404,32 @@ The detailed explanation lives in the template below.
 
 
 
+---
 
+### Hero Stack Card
+- **Class name:** `.girls_card`
+- **Layer:** components 
+- **Category:**  Card 
+- **Used for:**  hero stack card components
+- **Do NOT use for:**  Inputs that need their own border, padding, or differently formatted cards
+- **Tailwind utilities applied:**
+  * `w-[604px]`
+  * `h-[388px]`
+  * `bg-[#A273FF]`
+  * `rounded-2xl`
+  * `overflow-hidden`
+  * `w-[83px]`
+  * `h-[33px]`
+  * `pt-[2px]`
+  * `pb-[1px]`
+  * `h-[315px]`
+  * `object-cover`
+  * `h-[73px]`
+  * `flex`
+  * `items-start`
+  * `gap-[10px]`
+  * `px-3`
+  * `pt-[20px]`
 
 
 
